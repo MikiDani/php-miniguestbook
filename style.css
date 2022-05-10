@@ -1,0 +1,98 @@
+:root {
+    --bg1: #2f4f4f;
+    --bg2: #326e6e;
+    --bg3: #94bebe;
+    --border1:#2f4f4f;
+    --text1: #000;
+    --text1link: #fff;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--bg1);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: var(--bg2);
+}
+
+.head {
+    text-align: left;
+}
+
+.contnetcenter {
+    text-align: left;
+}
+
+.main, .posts, .upload {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main {
+    background-color: var(--bg3);
+    text-align: center;
+}
+
+.posts {
+    background-color: var(--bg3);
+    margin-bottom:10px;
+}
+
+.upload {
+    background-color: var(--bg1);
+    margin-top:10px;
+    text-align: center;
+}
+
+.posthead {
+    display:grid;
+    box-sizing: border-box;
+    width: 100%;
+    grid-template-columns: 6fr 4fr 3.5fr;
+    font-weight: bold;
+    color:#fff;
+}
+
+.posthead > div {
+    background-color: var(--bg2);
+    margin:0;
+    padding-top:3px;
+}
+
+.posttext {
+    border-left: 1px solid var(--border1);
+    border-right: 1px solid var(--border1);
+    border-bottom: 1px solid var(--border1);
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.menutext, .menutext:visited, .menutext:active, .menutext:link {
+    color: var(--text1);
+    text-decoration: none;
+}
+
+.menutext:hover {
+    text-decoration: none;
+    color: var(--text1link);
+    font-weight: bold;
+}
+
+.headuser {
+    float: right;
+}
+
+.deletebutton {
+    margin:0;
+    padding:3px;
+    border:0;
+    height: 25px;
+}
